@@ -67,7 +67,7 @@ AI_REQUIRES = [
     # 4.21.0 broke the sagemaker imports, see https://github.com/protocolbuffers/protobuf/issues/10051
     "netifaces>=0.11.0",
     "superai-builder>=0.8.1",
-    "pydantic>=1.8.2,<2",
+    "pydantic>=2.4.2,<3",
 ]
 
 AI_EXPERIMENTAL_REQUIRES = [
@@ -87,7 +87,7 @@ DP_REQUIRES = [
     "pyngrok>=6.0.0",
     "superai-dataclient~=0.1.0",
     "superai-schema~=0.7",
-    "pydantic>=1.8.2,<2",
+    "pydantic>=2.4.2,<3",
 ]
 
 TEST_REQUIRES = [
@@ -132,7 +132,7 @@ LLM_REQUIRES_EXTRA = [
     "orjson",
     "pdf2image~=1.16.3",
     "pinecone-client",
-    "pydantic>=1.8.2,<2",
+    "pydantic>=2.4.2,<3",
     "pytesseract",
     "python-dotenv",
     "reportlab",
