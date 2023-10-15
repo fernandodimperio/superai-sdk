@@ -113,7 +113,7 @@ LLM_REQUIRES = [
 
 LLM_REQUIRES_EXTRA = [
     "GitPython",
-    "Pillow~=9.5.0",
+    "Pillow~=10.1.0",
     "PyPDF2",
     "aioconsole",
     "aiofile",
